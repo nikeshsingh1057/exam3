@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#home img{
+   height: 25px;
+   width: 80px;
+}
+
+h3{
+    display: inline-block;
+    margin-left: 10px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+li{
+    margin:20px;
+}
+/* nav bar end */
+
+
+#section1{
+    
+    border: 2px solid red;
+    width: 100vw;
+    height: 55vh;
+    background-image:url('banner.jpg');
+    background-size: 100%;
+}
+#section1 div{
+
+    width: 50%;
+    margin: 100px auto;
+}
+span{
+    color:  orange;
+}
+#fresh{
+    font-size: 45px;
+    font-weight: 200;
+}
+#lorem{
+    margin-top: 4px;
+    font-size: 20px;
+}
+#button{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+/* section 1 end */
+
+#customer{
+    margin-top: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+#section2{
+
+    width: 75vw;
+    height: 35vh;
+    border: 2px solid red;
+    margin: 50px auto;
+}
+#man{
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
+#man img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#sp{
+    margin-left: 70px;
+}
+
+#blog{
+    font-size: 50px;
+    text-align: center;
+}
+
+/* three box wala yaha se suru hai */
+
+#section3{
+    width: 75vw;
+    margin: 30px auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figure{
+    width: 300px;
+    margin: 10px;
+}
+
+figure img{
+    height: 230px;
+    width:  95%;
+    padding: 8px;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 3px solid black;
+}
+
+button:hover{
+    background-color: orange;
+    transition: 500ms;
+}
+/* three box wala yaha se end ho gaya hai. */
+
+/* footer is start */
+
+#footer2{
+
+    width: 100%;
+    height: 300px;
+    border: 5px solid black;
+    /* background-color: rgb(7, 7, 83); */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer2 div{
+
+    width: 300px;
+    height: 100%;
+    border: 2px solid red;
+}
+
+#f2 p{
+    
+    margin-top:12px;
+    /* word-break: break-all;
+    word-spacing:2px; */
+}
+#f2 h2{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+span {
+  content: "\260E";
+}
+
+#list li{
+    list-style: none;
+}
+
+#list  li::before{
+
+        content: "\00BB";
+
+}
